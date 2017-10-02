@@ -29,18 +29,18 @@ Returns a list of lists (one list for each search term):
 }
 \description{
 A function to grab \href{http://www.google.com/trends/}{Google Trend} data
-using the \pkg{GTrendsR} package \url{https://github.com/dvanclev/GTrendsR}.
+using the \pkg{gtrendsR} package \url{https://github.com/dvanclev/gtrendsR}.
 }
 \examples{
 \dontrun{
 (out <- gtrend_scraper("tyler.rinker@gmail.com", "password", "dog bite"))
 
-library(GTrendsR)
+library(gtrendsR)
 as.zoo(out[[1]])
 }
 }
 \references{
-\url{https://github.com/dvanclev/GTrendsR}
+\url{https://github.com/dvanclev/gtrendsR}
 \url{http://www.google.com/trends}
 }
 
